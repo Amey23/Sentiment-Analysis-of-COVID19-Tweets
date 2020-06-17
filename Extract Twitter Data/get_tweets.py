@@ -40,4 +40,4 @@ for tweet in tweepy.Cursor(api.search, q="#COVID19India", count=100, lang='en').
 dt.head()
 
 #save data csv file in the root folder
-dt.to_csv("tweet_#Covid19Indianew_.csv",index=False)
+dt.to_csv("Data/tweet_#Covid19Indianew_.csv",index=False)
