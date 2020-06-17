@@ -16,7 +16,7 @@ except:
 dt = pd.DataFrame(columns = ['Tweets', 'User','User_location','fav_count', 'rt_count', 'tweet_date'])
 
 
-''' Same for the other hashtags #IndiaFightsCorona & #IndiaLockdown
+''' Same for the other hashtags #IndiaFightsCorona, #IndiaLockdown & #UnlockIndia
     We collected the twitter data on day to day basis.'''
 
 i = 0
