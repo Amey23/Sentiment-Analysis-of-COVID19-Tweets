@@ -15,15 +15,17 @@ except:
     
 dt = pd.DataFrame(columns = ['Tweets', 'User','User_location','fav_count', 'rt_count', 'tweet_date'])
 
+
+''' Same for the other hashtags #IndiaFightsCorona & #IndiaLockdown
+    We collected the twitter data on day to day basis.'''
+
 i = 0
-for tweet in tweepy.Cursor(api.search, q="#COVID19India", count=100, lang='en').items():
+# tweepy api call
+for tweet in tweepy.Cursor(api.search, q="#COVID19India", count=100, lang='en').items(): 
   print(i, end='\r')
   dt.loc[i, 'Tweets'] = tweet.text
   dt.loc[i, 'User'] = tweet.user.name  
-  #dt.loc[i, 'User_statuses_count'] = tweet.user.statuses_count
-  #df.loc[i, 'user_followers'] = tweet.user.followers_count
   dt.loc[i, 'User_location'] = tweet.user.location
-  #dt.loc[i, 'User_verified'] = tweet.user.verified
   dt.loc[i, 'fav_count'] = tweet.favorite_count
   dt.loc[i, 'rt_count'] = tweet.retweet_count
   dt.loc[i, 'tweet_date'] = tweet.created_at
@@ -34,5 +36,8 @@ for tweet in tweepy.Cursor(api.search, q="#COVID19India", count=100, lang='en').
     pass
 
 
+#Look at the first five rows of the data
 dt.head()
+
+#save data csv file in the root folder
 dt.to_csv("tweet_#Covid19Indianew_.csv",index=False)
