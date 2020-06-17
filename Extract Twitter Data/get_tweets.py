@@ -24,7 +24,10 @@ i = 0
 for tweet in tweepy.Cursor(api.search, q="#COVID19India", count=100, lang='en').items(): 
   print(i, end='\r')
   dt.loc[i, 'Tweets'] = tweet.text
+  dt.loc[i, 'User'] = tweet.user.name  
   dt.loc[i, 'User_location'] = tweet.user.location
+  dt.loc[i, 'fav_count'] = tweet.favorite_count
+  dt.loc[i, 'rt_count'] = tweet.retweet_count
   dt.loc[i, 'tweet_date'] = tweet.created_at
   i+=1
   if i == 100:
