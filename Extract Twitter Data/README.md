@@ -11,3 +11,7 @@ Extracted twitter data contains the following columns:
 - fav_count
 - rt_count
 - tweet_date
+
+**Readable Links:**
+- [Tweepy Documentation](http://docs.tweepy.org/en/latest/)
+- [Tweet Objects](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/intro-to-tweet-json)
