@@ -1,6 +1,7 @@
 ## Twitter Data Extraction
 
-**By using Tweepy streaming API, we collected the twitter data from 23/05/2020 to 05/06/2020 with the help of hashtags likely as #IndiaFightsCorona, #IndiaLockdown, #COVID19India and #UnlockIndia.** 
+**By using Tweepy streaming API, we collected the twitter data from 23/05/2020 to 05/06/2020 with the help of hashtags likely as #IndiaFightsCorona, #IndiaLockdown, #COVID19India and #UnlockIndia.
+We have near about 35K tweets for further sentiment analysis and visualizations.** 
 
 **Data Features:-**
 Extracted twitter data contains the following columns:
