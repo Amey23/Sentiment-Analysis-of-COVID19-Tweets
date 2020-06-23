@@ -5,6 +5,7 @@
 After the extension of lockdown announcements, the sentimental analysis of Indian tweets will be analyzed with the relevant #tags and build a predictive analysis model to understand people's behavior if the lockdown is further extended.
 
 **Description of Project Work / Experimentation: Architecture Flow**
+![alt text](https://drive.google.com/file/d/10LBsc_jpDehDQ_Nq4pxIUOcZNlv6Tj56/view?usp=sharing)
 
 For fetching the real-time data from twitter, the sentiment analysis model must require all requests to use OAuth for Authentication. Tweepy is the most easy-to-use Python library for accessing the functionalities provided by the Twitter API. Tweepy provides functionalities in a more straightforward way for Authentication. To design the sentiment model, we need to register our client application with Twitter. We follow the below authentication process:
 
