@@ -1,7 +1,7 @@
 # Streamlit Python
 Read here for [Documentation.](https://docs.streamlit.io/)
 
-**To run the app, type python app.py in the root folder directory on command prompt and make sure that you have all data csv files handy in the same folder or you can change the path and give the correct the path also.**
+**To run the app, type below command in the root folder directory on command prompt and make sure that you have all data csv files handy in the same folder or you can change the path and give the correct the path also.**
 > streamlit run hack.py
 
 **Requirements:**
