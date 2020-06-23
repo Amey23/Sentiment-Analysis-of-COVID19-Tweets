@@ -44,5 +44,4 @@ After connecting to twitter API and collecting all the necessary credentials, we
 5.   Visualize, the more hashtags embed in the tweets for more understanding.
 6.   Find out the time when most of the people post the tweet.
 
-
 **Note:- Many same data csv files have different names so check it first for confirmation.** 
