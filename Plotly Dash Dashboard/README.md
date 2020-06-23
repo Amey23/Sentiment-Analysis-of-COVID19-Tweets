@@ -6,6 +6,7 @@ Read here for [Documentation.](https://dash.plotly.com/)
 > python app.py
 
 **Requirements**
+
 Flask==1.1.1
 gunicorn==19.9.0
 itsdangerous==1.1.0
