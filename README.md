@@ -43,3 +43,6 @@ After connecting to twitter API and collecting all the necessary credentials, we
 4.   Create wordcloud for each sentiment category to figure out the most frequent words people use in their tweets.
 5.   Visualize, the more hashtags embed in the tweets for more understanding.
 6.   Find out the time when most of the people post the tweet.
+
+
+**Note:- Many same data csv files have different names so check it first for confirmation.** 
