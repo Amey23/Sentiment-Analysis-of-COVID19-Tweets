@@ -1,2 +1,2 @@
 **To run the app**
-python app.py
+> python app.py
